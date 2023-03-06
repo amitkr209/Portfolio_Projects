@@ -1,0 +1,36 @@
+Changed format of started_at and ended_at columns
+- Formatted as custom DATETIME
+- Format > Cells > Custom > yyyy-mm-dd h:mm:ss
+ 
+Created a column called ride_length
+- Calculated the length of each ride by subtracting the column started_at from the column ended_at (example: =D2-C2)
+- Formatted as TIME
+- Format > Cells > Time > HH:MM:SS (37:30:55)
+
+Created a column called ride_date
+- Calculated the date of each ride started using the DATE command (example: =DATE(YEAR(C2),MONTH(C2),DAY(C2)))
+- Format > Cells > Date > YYYY-MM-DD
+
+Created a column called ride_month
+- Entered the month of each ride and formatted as number (example: January: =1)
+- Format > Cells > Number
+
+Created a column called ride_year
+- Entered the year of each ride and formatted as general
+- Format > Cells > General > YYYY
+
+Created a column called start_time
+- Calculated the start time of each ride using the started_at column
+- Formatted as TIME
+- Format > Cells > Time > HH:MM:SS (37:30:55)
+
+Created a column called end_time
+- Calculated the end time of each ride using the ended_at column
+- Formatted as TIME
+- Format > Cells > Time > HH:MM:SS (37:30:55)
+
+Created a column called day_of_week
+- Calculated the day of the week that each ride started using the WEEKDAY command (example: =WEEKDAY(C2,1))
+- Formatted as a NUMBER with no decimals
+- Format > Cells > Number (no decimals) > 1,2,3,4,5,6,7
+- Note: 1 = Sunday and 7 = Saturday
