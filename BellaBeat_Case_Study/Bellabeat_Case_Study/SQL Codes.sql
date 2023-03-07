@@ -18,14 +18,6 @@ FROM `first - sandbox - 100001. Fitbit_data.sleepDay_merged`
 SELECT DISTINCT Id
 FROM `first - sandbox - 100001. weightLogInfo_merged`
 
-Answer:
-Result (distinct Id in each table):
-33
-33
-33
-33
-24
-8
 
 -- For finding activity level and calories burnt
 
