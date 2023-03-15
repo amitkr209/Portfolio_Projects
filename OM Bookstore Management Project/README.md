@@ -1,5 +1,5 @@
 # OM Bookstore Management Project
-This is a SQL project which is done by me (Amit Kumar) in the month of febrary as a freelancer data analyst.
+This is a SQL project which is done by me (Amit Kumar) as a freelancer data analyst.
 As this project help me in applying my SQL knowledge in the real-world.
 
 The whole process of creating and analysis the data for bookstore was pen-down in this blog
